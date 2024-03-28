@@ -1,0 +1,72 @@
+ /* Add some basic styling */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2 {
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+  
+.newAccount {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+.line {
+  margin: auto;
+  width: 80%;
+}
+
+.createLink {
+  width: 50%;
+  padding: 12px;
+  margin: auto; 
+  display: block; 
+  background-color: #0f26f5;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.createLink:hover {
+  background-color: #458df9;
+}
+
+
